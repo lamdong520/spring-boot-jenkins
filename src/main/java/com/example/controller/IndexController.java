@@ -19,6 +19,6 @@ public class IndexController {
 
     @GetMapping("/index")
     public String index(){
-        return "hello docker and jenkins......"+ serverPort;
+        return "哎，还是有点麻烦哦"+ serverPort;
     }
 }
